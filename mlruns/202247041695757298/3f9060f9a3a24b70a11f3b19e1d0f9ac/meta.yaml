@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/3f9060f9a3a24b70a11f3b19e1d0f9ac/artifacts
+end_time: 1704688175144
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: 3f9060f9a3a24b70a11f3b19e1d0f9ac
+run_name: invincible-sloth-685
+run_uuid: 3f9060f9a3a24b70a11f3b19e1d0f9ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704687775165
+status: 3
+tags: []
+user_id: A4647

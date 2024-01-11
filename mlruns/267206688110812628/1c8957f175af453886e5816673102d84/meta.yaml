@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/1c8957f175af453886e5816673102d84/artifacts
+end_time: 1704707823299
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: 1c8957f175af453886e5816673102d84
+run_name: funny-donkey-931
+run_uuid: 1c8957f175af453886e5816673102d84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704707796619
+status: 3
+tags: []
+user_id: A4647

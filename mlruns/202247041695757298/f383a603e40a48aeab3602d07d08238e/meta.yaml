@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/f383a603e40a48aeab3602d07d08238e/artifacts
+end_time: 1704704755327
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: f383a603e40a48aeab3602d07d08238e
+run_name: melodic-worm-0
+run_uuid: f383a603e40a48aeab3602d07d08238e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704704394504
+status: 3
+tags: []
+user_id: A4647

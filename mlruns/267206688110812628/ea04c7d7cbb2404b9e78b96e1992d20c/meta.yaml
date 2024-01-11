@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/ea04c7d7cbb2404b9e78b96e1992d20c/artifacts
+end_time: 1704862789795
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: ea04c7d7cbb2404b9e78b96e1992d20c
+run_name: welcoming-colt-698
+run_uuid: ea04c7d7cbb2404b9e78b96e1992d20c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704862754620
+status: 3
+tags: []
+user_id: A4647

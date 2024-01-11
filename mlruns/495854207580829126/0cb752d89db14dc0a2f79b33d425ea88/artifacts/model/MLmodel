@@ -1,0 +1,32 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 2.9.2
+model_size_bytes: 1578
+model_uuid: 2050c861345e4f7688d2dd26c70af1d3
+run_id: 0cb752d89db14dc0a2f79b33d425ea88
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Gender"}, {"type": "long", "name": "Blood Type"},
+    {"type": "long", "name": "Medical Condition"}, {"type": "long", "name": "Insurance
+    Provider"}, {"type": "long", "name": "Admission Type"}, {"type": "long", "name":
+    "Medication"}, {"type": "long", "name": "Age_group"}, {"type": "double", "name":
+    "days in Hospital"}, {"type": "long", "name": "bill_group"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-01-10 07:09:01.557995'

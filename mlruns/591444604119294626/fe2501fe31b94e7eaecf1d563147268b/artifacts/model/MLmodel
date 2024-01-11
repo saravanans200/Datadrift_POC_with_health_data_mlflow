@@ -1,0 +1,32 @@
+artifact_path: model
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.13
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: xgb
+    xgb_version: 2.0.2
+mlflow_version: 2.9.2
+model_size_bytes: 1354742
+model_uuid: e4da8f63d07e47bbaef2d140c11a736c
+run_id: fe2501fe31b94e7eaecf1d563147268b
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Gender"}, {"type": "long", "name": "Blood Type"},
+    {"type": "long", "name": "Medical Condition"}, {"type": "long", "name": "Insurance
+    Provider"}, {"type": "long", "name": "Admission Type"}, {"type": "long", "name":
+    "Medication"}, {"type": "long", "name": "Age_group"}, {"type": "double", "name":
+    "days in Hospital"}, {"type": "long", "name": "bill_group"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-01-08 10:04:20.388884'

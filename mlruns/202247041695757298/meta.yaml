@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298
+creation_time: 1703048283102
+experiment_id: '202247041695757298'
+last_update_time: 1703048283102
+lifecycle_stage: active
+name: RandomForest

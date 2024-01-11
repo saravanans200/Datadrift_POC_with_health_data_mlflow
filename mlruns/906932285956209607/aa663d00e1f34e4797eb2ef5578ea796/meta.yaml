@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/906932285956209607/aa663d00e1f34e4797eb2ef5578ea796/artifacts
+end_time: 1704691020149
+entry_point_name: ''
+experiment_id: '906932285956209607'
+lifecycle_stage: active
+run_id: aa663d00e1f34e4797eb2ef5578ea796
+run_name: run1.1
+run_uuid: aa663d00e1f34e4797eb2ef5578ea796
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704690999857
+status: 3
+tags: []
+user_id: A4647

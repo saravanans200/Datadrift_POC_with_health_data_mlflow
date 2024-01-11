@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/924410701521085386/5166600333ce4fbaae938867b2755965/artifacts
+end_time: 1704692365105
+entry_point_name: ''
+experiment_id: '924410701521085386'
+lifecycle_stage: active
+run_id: 5166600333ce4fbaae938867b2755965
+run_name: beautiful-colt-654
+run_uuid: 5166600333ce4fbaae938867b2755965
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704692336854
+status: 3
+tags: []
+user_id: A4647

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/ca213b73323e48c28dce148d05aa80be/artifacts
+end_time: 1704864026307
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: ca213b73323e48c28dce148d05aa80be
+run_name: delightful-chimp-440
+run_uuid: ca213b73323e48c28dce148d05aa80be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704863655618
+status: 3
+tags: []
+user_id: A4647

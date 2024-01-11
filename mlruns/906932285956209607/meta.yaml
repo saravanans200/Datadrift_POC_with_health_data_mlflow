@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/906932285956209607
+creation_time: 1703048853555
+experiment_id: '906932285956209607'
+last_update_time: 1703048853555
+lifecycle_stage: active
+name: Xgboost after Datadrift

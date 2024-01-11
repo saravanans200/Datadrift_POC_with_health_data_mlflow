@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/81edc40eccab49a48a387d45ec7bc757/artifacts
+end_time: 1704871738929
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: 81edc40eccab49a48a387d45ec7bc757
+run_name: unleashed-asp-394
+run_uuid: 81edc40eccab49a48a387d45ec7bc757
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704871680717
+status: 3
+tags: []
+user_id: A4647

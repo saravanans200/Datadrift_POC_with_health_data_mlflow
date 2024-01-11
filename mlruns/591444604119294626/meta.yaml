@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/591444604119294626
+creation_time: 1703048819422
+experiment_id: '591444604119294626'
+last_update_time: 1703048819422
+lifecycle_stage: active
+name: Xgboost

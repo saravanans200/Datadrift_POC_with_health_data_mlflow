@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/b16e5315e0c84e3a94fea92b047a921e/artifacts
+end_time: 1704864801512
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: b16e5315e0c84e3a94fea92b047a921e
+run_name: invincible-panda-500
+run_uuid: b16e5315e0c84e3a94fea92b047a921e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704864459077
+status: 3
+tags: []
+user_id: A4647

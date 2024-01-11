@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/477568792198755762/61216f6733ea47db87b80ec4ece129ce/artifacts
+end_time: 1704697820571
+entry_point_name: ''
+experiment_id: '477568792198755762'
+lifecycle_stage: active
+run_id: 61216f6733ea47db87b80ec4ece129ce
+run_name: bald-squid-193
+run_uuid: 61216f6733ea47db87b80ec4ece129ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704697401540
+status: 3
+tags: []
+user_id: A4647

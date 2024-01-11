@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/3ff0d4e4730c42cdb0380a5998242c89/artifacts
+end_time: 1704872201049
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: 3ff0d4e4730c42cdb0380a5998242c89
+run_name: skittish-yak-502
+run_uuid: 3ff0d4e4730c42cdb0380a5998242c89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704871834423
+status: 3
+tags: []
+user_id: A4647

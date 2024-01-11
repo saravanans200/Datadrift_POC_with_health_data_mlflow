@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/924410701521085386/bf51c0e7551d4cbf846dd12f1e63951a/artifacts
+end_time: 1703048960537
+entry_point_name: ''
+experiment_id: '924410701521085386'
+lifecycle_stage: active
+run_id: bf51c0e7551d4cbf846dd12f1e63951a
+run_name: rogue-stoat-518
+run_uuid: bf51c0e7551d4cbf846dd12f1e63951a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703048926950
+status: 3
+tags: []
+user_id: A4647

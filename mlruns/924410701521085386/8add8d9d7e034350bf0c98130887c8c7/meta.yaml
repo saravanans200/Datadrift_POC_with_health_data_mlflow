@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/924410701521085386/8add8d9d7e034350bf0c98130887c8c7/artifacts
+end_time: 1704691257195
+entry_point_name: ''
+experiment_id: '924410701521085386'
+lifecycle_stage: active
+run_id: 8add8d9d7e034350bf0c98130887c8c7
+run_name: secretive-wren-351
+run_uuid: 8add8d9d7e034350bf0c98130887c8c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704691228683
+status: 3
+tags: []
+user_id: A4647

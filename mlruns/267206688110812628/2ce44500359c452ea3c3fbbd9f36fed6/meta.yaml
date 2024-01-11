@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/2ce44500359c452ea3c3fbbd9f36fed6/artifacts
+end_time: 1704861985238
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: 2ce44500359c452ea3c3fbbd9f36fed6
+run_name: bedecked-swan-51
+run_uuid: 2ce44500359c452ea3c3fbbd9f36fed6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704861951739
+status: 3
+tags: []
+user_id: A4647

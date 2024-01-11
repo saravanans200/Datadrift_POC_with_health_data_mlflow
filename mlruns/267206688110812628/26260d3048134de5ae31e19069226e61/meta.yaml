@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/26260d3048134de5ae31e19069226e61/artifacts
+end_time: 1704862789795
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: 26260d3048134de5ae31e19069226e61
+run_name: luxuriant-turtle-832
+run_uuid: 26260d3048134de5ae31e19069226e61
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704862754620
+status: 3
+tags: []
+user_id: A4647

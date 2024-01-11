@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/baad793b2b04402099034fb6e146b4ef/artifacts
+end_time: 1704445481172
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: baad793b2b04402099034fb6e146b4ef
+run_name: indecisive-finch-653
+run_uuid: baad793b2b04402099034fb6e146b4ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704445453059
+status: 3
+tags: []
+user_id: A4647

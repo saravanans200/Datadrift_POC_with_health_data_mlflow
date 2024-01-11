@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/477568792198755762/b88447ac98d342069ef77ef3f885d451/artifacts
+end_time: 1704693704147
+entry_point_name: ''
+experiment_id: '477568792198755762'
+lifecycle_stage: active
+run_id: b88447ac98d342069ef77ef3f885d451
+run_name: sneaky-cod-548
+run_uuid: b88447ac98d342069ef77ef3f885d451
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704693331566
+status: 3
+tags: []
+user_id: A4647

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/96a70ea10e7347b0803b33ac003ad04c/artifacts
+end_time: 1704706846545
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: 96a70ea10e7347b0803b33ac003ad04c
+run_name: victorious-owl-745
+run_uuid: 96a70ea10e7347b0803b33ac003ad04c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704706819670
+status: 3
+tags: []
+user_id: A4647

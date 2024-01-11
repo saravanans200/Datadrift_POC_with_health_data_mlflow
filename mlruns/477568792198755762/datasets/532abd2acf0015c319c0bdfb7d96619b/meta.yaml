@@ -1,0 +1,12 @@
+digest: 7004a964
+name: dataset
+profile: '{"num_rows": 2069, "num_elements": 20690}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "Gender"}, {"type": "long",
+  "name": "Blood Type"}, {"type": "long", "name": "Medical Condition"}, {"type": "long",
+  "name": "Insurance Provider"}, {"type": "long", "name": "Admission Type"}, {"type":
+  "long", "name": "Medication"}, {"type": "long", "name": "Age_group"}, {"type": "long",
+  "name": "temperature"}, {"type": "double", "name": "days in Hospital"}, {"type":
+  "long", "name": "bill_group"}]}'
+source: '{"tags": {"mlflow.user": "A4647", "mlflow.source.name": "C:\\Users\\A4647\\PycharmProjects\\Data_Drift_mlflow_v1\\src\\models_after_drift.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

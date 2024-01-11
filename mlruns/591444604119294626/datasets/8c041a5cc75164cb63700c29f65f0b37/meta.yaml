@@ -1,0 +1,9 @@
+digest: 32de1b95
+name: dataset
+profile: '{"features_shape": [8000, 9], "features_size": 72000, "features_nbytes":
+  288000}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float32\", \"shape\": [-1, 9]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "A4647", "mlflow.source.name": "C:\\Users\\A4647\\PycharmProjects\\Data_Drift_mlflow_v1\\src\\models_xgboost.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

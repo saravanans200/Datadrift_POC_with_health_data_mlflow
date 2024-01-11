@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/479aabb3886e4627801ccb5b8d39fb3a/artifacts
+end_time: 1704706027948
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: 479aabb3886e4627801ccb5b8d39fb3a
+run_name: selective-skunk-668
+run_uuid: 479aabb3886e4627801ccb5b8d39fb3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704705998563
+status: 3
+tags: []
+user_id: A4647

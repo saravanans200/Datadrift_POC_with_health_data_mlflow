@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/924410701521085386/dc2a4e56f1d346c0a3adf8c953621b17/artifacts
+end_time: 1704693259631
+entry_point_name: ''
+experiment_id: '924410701521085386'
+lifecycle_stage: active
+run_id: dc2a4e56f1d346c0a3adf8c953621b17
+run_name: rogue-toad-143
+run_uuid: dc2a4e56f1d346c0a3adf8c953621b17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704693220445
+status: 3
+tags: []
+user_id: A4647

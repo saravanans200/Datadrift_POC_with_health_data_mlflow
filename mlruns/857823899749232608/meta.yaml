@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/857823899749232608
+creation_time: 1703048858206
+experiment_id: '857823899749232608'
+last_update_time: 1703048858206
+lifecycle_stage: active
+name: Logistic after Datadrift

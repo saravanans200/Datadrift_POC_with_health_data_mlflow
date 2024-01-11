@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/477568792198755762/e255d80c5d844d2783b80ff0d8ec3629/artifacts
+end_time: 1704692833676
+entry_point_name: ''
+experiment_id: '477568792198755762'
+lifecycle_stage: active
+run_id: e255d80c5d844d2783b80ff0d8ec3629
+run_name: luxuriant-eel-159
+run_uuid: e255d80c5d844d2783b80ff0d8ec3629
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704692516380
+status: 3
+tags: []
+user_id: A4647

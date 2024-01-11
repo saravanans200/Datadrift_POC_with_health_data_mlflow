@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/924410701521085386/d00615018268477b8dd07fb6c8c99705/artifacts
+end_time: 1704695422769
+entry_point_name: ''
+experiment_id: '924410701521085386'
+lifecycle_stage: active
+run_id: d00615018268477b8dd07fb6c8c99705
+run_name: salty-elk-268
+run_uuid: d00615018268477b8dd07fb6c8c99705
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704695368361
+status: 3
+tags: []
+user_id: A4647

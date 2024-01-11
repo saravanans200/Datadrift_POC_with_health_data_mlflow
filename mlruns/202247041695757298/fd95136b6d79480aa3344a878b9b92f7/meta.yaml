@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/fd95136b6d79480aa3344a878b9b92f7/artifacts
+end_time: 1704862443876
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: fd95136b6d79480aa3344a878b9b92f7
+run_name: aged-goose-200
+run_uuid: fd95136b6d79480aa3344a878b9b92f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704862066662
+status: 3
+tags: []
+user_id: A4647

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/9c53e013361d4d7a8dda8c650044c6e3/artifacts
+end_time: 1704869154126
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: 9c53e013361d4d7a8dda8c650044c6e3
+run_name: flawless-penguin-252
+run_uuid: 9c53e013361d4d7a8dda8c650044c6e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704868808120
+status: 3
+tags: []
+user_id: A4647

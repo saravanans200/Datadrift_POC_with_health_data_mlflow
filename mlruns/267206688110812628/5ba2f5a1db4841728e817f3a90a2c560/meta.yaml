@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/5ba2f5a1db4841728e817f3a90a2c560/artifacts
+end_time: 1704865020382
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: 5ba2f5a1db4841728e817f3a90a2c560
+run_name: delightful-lark-205
+run_uuid: 5ba2f5a1db4841728e817f3a90a2c560
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704864990098
+status: 3
+tags: []
+user_id: A4647

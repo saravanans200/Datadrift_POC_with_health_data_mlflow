@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/48c3154403234531922c779f1801dc95/artifacts
+end_time: 1704707823299
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: 48c3154403234531922c779f1801dc95
+run_name: aged-vole-466
+run_uuid: 48c3154403234531922c779f1801dc95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704707796619
+status: 3
+tags: []
+user_id: A4647

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/477568792198755762/3180ff7e5a324fff99a8fed565293ddc/artifacts
+end_time: 1704692833676
+entry_point_name: ''
+experiment_id: '477568792198755762'
+lifecycle_stage: active
+run_id: 3180ff7e5a324fff99a8fed565293ddc
+run_name: trusting-turtle-758
+run_uuid: 3180ff7e5a324fff99a8fed565293ddc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704692516380
+status: 3
+tags: []
+user_id: A4647

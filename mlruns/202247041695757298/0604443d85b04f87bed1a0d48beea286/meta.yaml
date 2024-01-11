@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/0604443d85b04f87bed1a0d48beea286/artifacts
+end_time: 1704706429264
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: 0604443d85b04f87bed1a0d48beea286
+run_name: secretive-ox-962
+run_uuid: 0604443d85b04f87bed1a0d48beea286
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704706087156
+status: 3
+tags: []
+user_id: A4647

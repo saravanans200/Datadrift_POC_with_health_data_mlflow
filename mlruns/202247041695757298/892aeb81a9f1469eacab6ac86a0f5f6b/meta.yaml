@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/892aeb81a9f1469eacab6ac86a0f5f6b/artifacts
+end_time: 1704445849399
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: 892aeb81a9f1469eacab6ac86a0f5f6b
+run_name: nimble-ram-357
+run_uuid: 892aeb81a9f1469eacab6ac86a0f5f6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704445543676
+status: 3
+tags: []
+user_id: A4647

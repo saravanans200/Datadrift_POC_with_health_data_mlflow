@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/983678a00c864a50a06c20a9f85be25f/artifacts
+end_time: 1704700600904
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: 983678a00c864a50a06c20a9f85be25f
+run_name: sassy-shark-803
+run_uuid: 983678a00c864a50a06c20a9f85be25f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704700257379
+status: 3
+tags: []
+user_id: A4647

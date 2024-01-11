@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/c24602c90baf47a7a00ea37da113a295/artifacts
+end_time: 1704704755327
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: c24602c90baf47a7a00ea37da113a295
+run_name: hilarious-turtle-95
+run_uuid: c24602c90baf47a7a00ea37da113a295
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704704394504
+status: 3
+tags: []
+user_id: A4647

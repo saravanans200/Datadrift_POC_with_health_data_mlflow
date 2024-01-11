@@ -1,0 +1,32 @@
+artifact_path: best_estimator
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 2.9.2
+model_size_bytes: 5651
+model_uuid: 7c0cf9a52be245bab3504860a07038d9
+run_id: 8972713227464de490e7d39d13e59806
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Gender"}, {"type": "long", "name": "Blood Type"},
+    {"type": "long", "name": "Medical Condition"}, {"type": "long", "name": "Insurance
+    Provider"}, {"type": "long", "name": "Admission Type"}, {"type": "long", "name":
+    "Medication"}, {"type": "long", "name": "Age_group"}, {"type": "double", "name":
+    "days in Hospital"}, {"type": "long", "name": "bill_group"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-01-08 08:13:58.067746'

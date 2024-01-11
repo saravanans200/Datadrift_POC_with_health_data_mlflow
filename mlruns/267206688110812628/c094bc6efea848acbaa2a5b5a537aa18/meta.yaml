@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/c094bc6efea848acbaa2a5b5a537aa18/artifacts
+end_time: 1704690139850
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: c094bc6efea848acbaa2a5b5a537aa18
+run_name: whimsical-sloth-156
+run_uuid: c094bc6efea848acbaa2a5b5a537aa18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704690112953
+status: 3
+tags: []
+user_id: A4647

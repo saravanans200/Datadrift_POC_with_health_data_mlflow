@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/267206688110812628/a073676f09d4463bba890ae01ccc41a3/artifacts
+end_time: 1704444199361
+entry_point_name: ''
+experiment_id: '267206688110812628'
+lifecycle_stage: active
+run_id: a073676f09d4463bba890ae01ccc41a3
+run_name: rogue-sheep-147
+run_uuid: a073676f09d4463bba890ae01ccc41a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704444150878
+status: 3
+tags: []
+user_id: A4647

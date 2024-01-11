@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/A4647/PycharmProjects/Data_Drift_mlflow_v1/src/../mlruns/202247041695757298/2cea0d40f1a3454fbf1b4f9cd2422447/artifacts
+end_time: 1704445849399
+entry_point_name: ''
+experiment_id: '202247041695757298'
+lifecycle_stage: active
+run_id: 2cea0d40f1a3454fbf1b4f9cd2422447
+run_name: useful-swan-130
+run_uuid: 2cea0d40f1a3454fbf1b4f9cd2422447
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704445543676
+status: 3
+tags: []
+user_id: A4647
