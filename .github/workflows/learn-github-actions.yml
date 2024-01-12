@@ -24,4 +24,4 @@ jobs:
         pip install -r requirements.txt  # Change this if your dependencies are listed in a requirements file
 
     - name: Run Python Script
-      run: python src/main1.py  # Replace 'your_script.py' with the actual filename
+      run: python src/model.py  # Replace 'your_script.py' with the actual filename
