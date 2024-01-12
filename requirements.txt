@@ -9,4 +9,3 @@ mlflow == 2.9.2
 evidently == 0.4.11
 schedule == 1.2.1
 pathlib == 1.0.1
-winsound
