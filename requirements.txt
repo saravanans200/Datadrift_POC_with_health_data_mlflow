@@ -7,3 +7,6 @@ seaborn~=0.12.1
 pathlib
 mlflow
 evidently
+schedule
+pathlib
+subprocess
