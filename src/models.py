@@ -63,7 +63,7 @@ def model_hyperparameter_tuning(model, hyperparameter_dict, cv, n_jobs, scoring,
 def csv_path(csv):
     path = Path.cwd()
     path = str(path)
-    path = path[:-4]
+    #path = path[:-4]
     path = path + csv
     f_path = Path(path)
     return f_path
