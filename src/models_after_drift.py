@@ -8,7 +8,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import sklearn
 from warnings import filterwarnings
-import winsound
 import datetime
 
 filterwarnings('ignore')
@@ -618,8 +617,4 @@ if __name__ == "__main__":
     result["date_time"] = pd.to_datetime(result["date_time"])
     print(result.info())
     result.to_csv(csv_path('//data//result//result_accuracy.csv'),index=False)
-
-    duration = 3000  # milliseconds
-    freq = 440  # Hz
-    winsound.Beep(freq, duration)
 
