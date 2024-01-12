@@ -623,6 +623,10 @@ if __name__ == "__main__":
     result = result._append(new_row, ignore_index=True)
     result["date_time"] = pd.to_datetime(result["date_time"])
     print(result.info())
+    print("result:")
+    print(result)
+    print("_____________________________________________________________")
+    print(csv_path('//data//result//result_accuracy.csv'))
     result.to_csv(csv_path('//data//result//result_accuracy.csv'),index=False)
 
 
