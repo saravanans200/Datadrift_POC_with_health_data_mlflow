@@ -27,3 +27,11 @@ jobs:
 
     - name: Run Python Script
       run: python src/models.py  # Replace 'your_script.py' with the actual filename
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.email "saravanashanmuganathan35@gmail.com"
+        git config --global user.name "saravanans200"
+        git add data/result/result_accuracy.csv  # Adjust the path and file name
+        git commit -m "Update CSV file"
+        git push origin main  # Replace 'main' with your branch name
