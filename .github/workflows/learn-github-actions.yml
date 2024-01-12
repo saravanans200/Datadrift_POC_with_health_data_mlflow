@@ -1,7 +1,7 @@
 name: On Push Run
 on: push
 env:
-  DEVOPS_DIR: devops
+  DEVOPS_DIR: src
 jobs:
   hello-world:
     name: Hello world
