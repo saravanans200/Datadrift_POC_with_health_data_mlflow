@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Hello World
-      run: python ${{ env.DEVOPS_DIR }}/main.py
+      run: python src/main.py
       shell: sh
