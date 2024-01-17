@@ -104,8 +104,8 @@ if updated_dataset.shape[0] != insight['no._of_rows'][0] or updated_dataset.shap
 
         content = "drift detection have been found in data in shape itself"
         subject = "drift detection found"
-        to_address = ["saravana.shanmuganathan@axtria.com","sandeep.misra@axtria.com"]
-        #to_address = ["saravana.shanmuganathan@axtria.com"]
+        #to_address = ["saravana.shanmuganathan@axtria.com","sandeep.misra@axtria.com"]
+        to_address = ["saravana.shanmuganathan@axtria.com"]
         for i in to_address:
             print("Sending mail to "+i+"...")
             # Send the email and store the response
