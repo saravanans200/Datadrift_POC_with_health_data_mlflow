@@ -27,6 +27,7 @@ jobs:
 
     - name: Run Python Script
       run: python src/models.py  # Replace 'your_script.py' with the actual filename
+      run: python src/drift_detection.py
 
     - name: Commit and Push Changes
       run: |
