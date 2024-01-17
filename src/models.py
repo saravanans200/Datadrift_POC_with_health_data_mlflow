@@ -5,6 +5,8 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 import seaborn as sns
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import sklearn
 import datetime
@@ -28,6 +30,7 @@ import mlflow.sklearn
 import warnings
 from mlflow.models.signature import ModelSignature, infer_signature
 from mlflow.types.schema import Schema,ColSpec
+import plotly.graph_objs as go
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
@@ -629,5 +632,17 @@ if __name__ == "__main__":
     print(csv_path('//data//result//result_accuracy.csv'))
     result.to_csv(csv_path('//data//result//result_accuracy.csv'),index=False)
 
+    fig = go.Figure()
 
+    for model in ['logistics', 'decision', 'random', 'xgboost']:
+        fig.add_trace(go.Scatter(x=result['date_time'], y=result[model], mode='lines', name=model))
+
+    fig.update_layout(
+        title='Accuracy Dashboard',
+        xaxis={'title': 'Date'},
+        yaxis={'title': 'Accuracy'},
+    )
+
+    # Save the figure as an HTML file
+    fig.write_html(csv_path('//result/accuracy_dashboard.html'))
 
