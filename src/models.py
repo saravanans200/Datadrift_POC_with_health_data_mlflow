@@ -644,5 +644,5 @@ if __name__ == "__main__":
     )
 
     # Save the figure as an HTML file
-    fig.write_html(csv_path('//result/accuracy_dashboard.html'))
+    fig.write_html(csv_path('//result//accuracy_dashboard.html'))
 
