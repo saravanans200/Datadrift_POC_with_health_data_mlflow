@@ -22,6 +22,43 @@ import warnings
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+
+smtp_server = "smtp.gmail.com"
+smtp_port = 587  # TLS port for Gmail
+smtp_username = "saravanashanmuganathan35@gmail.com"  # Your Gmail email address
+smtp_password = "ngld jpvc mszi kejt"  # Your generated Gmail App Password
+
+# Define the email sender function
+def send_email(subject, body, to_address):
+    from_email = smtp_username
+
+    # Create the email message
+    msg = MIMEMultipart()
+    msg['From'] = from_email
+    msg['To'] = to_address
+    msg['Subject'] = subject
+
+    # Attach the email body
+    msg.attach(MIMEText(body, 'plain'))
+
+    try:
+        # Connect to the Gmail SMTP server
+        server = smtplib.SMTP(smtp_server, smtp_port)
+        server.starttls()  # Use TLS for encryption
+        server.login(smtp_username, smtp_password)
+
+        # Send the email
+        server.sendmail(from_email, to_address, msg.as_string())
+        server.quit()
+
+        return {"message": "Email sent successfully!"}
+    except Exception as e:
+        print(f"Exception when sending email: {str(e)}")
+        return {"message": "Email sending failed."}
+
 def csv_path(csv):
     path = Path.cwd()
     path = str(path)
@@ -43,7 +80,7 @@ if updated_dataset.shape[0] != insight['no._of_rows'][0] or updated_dataset.shap
     print("some differnce")
     if updated_dataset['Age'].std() != insight['Age_std'][0]:
         print("evidently")
-        print("send mail function here")
+
         report = Report(metrics=[
             DataDriftPreset(),
         ])
@@ -64,6 +101,18 @@ if updated_dataset.shape[0] != insight['no._of_rows'][0] or updated_dataset.shap
         path = str(csv_path('//result//testsuite.html'))
         tests.save_html(path)
         tests.run(reference_data=original_dataset, current_data=updated_dataset)
+
+        content = "drift detection have been found in data in shape itself"
+        subject = "drift detection found"
+        to_address = "saravana.shanmuganathan@axtria.com"
+
+        print("Sending mail...")
+
+        # Send the email and store the response
+        email_response = send_email(subject, content, to_address)
+
+        # Print the status of the email sending process
+        print(email_response)
         print("report uploaded")
 
 else:
