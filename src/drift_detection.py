@@ -62,7 +62,7 @@ def send_email(subject, body, to_address):
 def csv_path(csv):
     path = Path.cwd()
     path = str(path)
-    #path = path[:-4]
+    path = path[:-4]
     path = path + csv
     f_path = Path(path)
     return f_path
@@ -104,15 +104,14 @@ if updated_dataset.shape[0] != insight['no._of_rows'][0] or updated_dataset.shap
 
         content = "drift detection have been found in data in shape itself"
         subject = "drift detection found"
-        to_address = "saravana.shanmuganathan@axtria.com"
-
-        print("Sending mail...")
-
-        # Send the email and store the response
-        email_response = send_email(subject, content, to_address)
-
-        # Print the status of the email sending process
-        print(email_response)
+        to_address = ["saravana.shanmuganathan@axtria.com","sandeep.misra@axtria.com"]
+        #to_address = ["saravana.shanmuganathan@axtria.com"]
+        for i in to_address:
+            print("Sending mail to "+i+"...")
+            # Send the email and store the response
+            email_response = send_email(subject, content, i)
+            # Print the status of the email sending process
+            print(email_response)
         print("report uploaded")
 
 else:
