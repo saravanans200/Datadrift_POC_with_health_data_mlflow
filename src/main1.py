@@ -46,7 +46,7 @@ def func():
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     execute_python_file('models.py')
-    execute_python_file('drift detection.py')
+    execute_python_file('drift_detection.py')
 
 
 
