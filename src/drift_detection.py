@@ -62,7 +62,7 @@ def send_email(subject, body, to_address):
 def csv_path(csv):
     path = Path.cwd()
     path = str(path)
-    path = path[:-4]
+    #path = path[:-4]
     path = path + csv
     f_path = Path(path)
     return f_path
