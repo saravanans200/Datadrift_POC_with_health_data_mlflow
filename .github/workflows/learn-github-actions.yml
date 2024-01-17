@@ -35,3 +35,6 @@ jobs:
         git add data/result/result_accuracy.csv  # Adjust the path and file name
         git commit -m "Update CSV file"
         git push origin main  # Replace 'main' with your branch name
+        git add result/accuracy_dashboard.html  # Adjust the path and file name
+        git commit -m "Update CSV file"
+        git push origin main
