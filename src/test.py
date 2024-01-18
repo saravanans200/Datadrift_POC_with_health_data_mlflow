@@ -1,27 +1,42 @@
 import smtplib
-from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email import encoders
+from pathlib import Path
 
-# Email configuration
-sender_email = "saravanashanmuganathan35@gmail.com"
-receiver_email = "saravana.shanmuganathan@axtria.com"
-password = "saravana*35"
+def csv_path(csv):
+    path = Path.cwd()
+    path = str(path)
+    path = path[:-4]
+    path = path + csv
+    f_path = Path(path)
+    return f_path
 
-# Create the email message
-subject = "Subject of the email"
-body = "Body of the email"
-message = MIMEMultipart()
-message['From'] = sender_email
-message['To'] = receiver_email
-message['Subject'] = subject
-message.attach(MIMEText(body, 'plain'))
+fromaddr = "saravanashanmuganathan35@gmail.com"
+toaddr = ["saravana.shanmuganathan@axtria.com"]
 
-# Establish a connection to the SMTP server
-smtp_server = "smtp.gmail.com"
-smtp_port = 587
-with smtplib.SMTP(smtp_server, smtp_port) as server:
-    server.starttls()  # Use TLS encryption
-    server.login(sender_email, password)
-    server.sendmail(sender_email, receiver_email, message.as_string())
+msg = MIMEMultipart()
 
-print("Email sent successfully!")
+for i in toaddr:
+    msg['From'] = fromaddr
+    msg['To'] = i
+    msg['Subject'] = "Data Drift detected"
+    body = ''' Hi Team, 
+        Data Drift has happened please check the data.
+    Thank you'''
+    msg.attach(MIMEText(body, 'plain'))
+    filename = "drift_result.html"
+    attachment = open(csv_path("//result//drift_result.html"), "rb")
+    p = MIMEBase('application', 'octet-stream')
+    p.set_payload((attachment).read())
+    encoders.encode_base64(p)
+    p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
+    msg.attach(p)
+    s = smtplib.SMTP('smtp.gmail.com', 587)
+    s.starttls()
+    s.login(fromaddr, "ngld jpvc mszi kejt")
+    text = msg.as_string()
+    print(text)
+    s.sendmail(fromaddr, i, text)
+    s.quit()
