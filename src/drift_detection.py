@@ -103,7 +103,7 @@ if updated_dataset.shape[0] != insight['no._of_rows'][0] or updated_dataset.shap
             s.quit()
 
 
-        print("report uploaded")
+        print("report uploadeds")
 
 else:
     print("no")
