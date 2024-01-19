@@ -115,7 +115,7 @@ if updated_dataset.shape[0] != insight['no._of_rows'][0] or updated_dataset.shap
                        Data Drift has happened, please check the data. There is an change in data.
         Thank you'''
         subject = "drift detection found"
-        to_address = ["saravana.shanmuganathan@axtria.com","vaidhyanathan.v@axtria.com"]
+        to_address = ["saravana.shanmuganathan@axtria.com"]
 
         print("Sending mail...")
         for i in to_address:
