@@ -121,7 +121,10 @@ if updated_dataset.shape[0] != insight['no._of_rows'][0] or updated_dataset.shap
 
         subject = "drift detection found"
         to_address = ["saravana.shanmuganathan@axtria.com"]
+<<<<<<< HEAD
         attachments = ["//result//drift_result.html", "//result//accuracy_dashboard.html"]
+=======
+>>>>>>> 8086b8a7980cf173e7320ff566fc294fd33288ab
 
         print("Sending mail...")
         for i in to_address:
