@@ -36,7 +36,7 @@ smtp_password = "ngld jpvc mszi kejt"  # Your generated Gmail App Password
 def csv_path(csv):
     path = Path.cwd()
     path = str(path)
-    #path = path[:-4]
+    path = path[:-4]
     path = path + csv
     f_path = Path(path)
     return f_path
@@ -80,6 +80,7 @@ def send_email(subject, body, to_address, attachments=None):
     except Exception as e:
         print(f"Exception when sending email: {str(e)}")
         return {"message": "Email sending failed."}
+
 original_dataset = pd.read_csv(csv_path('//data//healthcare_dataset.csv'))
 print("old:", original_dataset)
 
@@ -87,7 +88,6 @@ updated_dataset = pd.read_csv(csv_path('//data//healthcare_dataset_updated.csv')
 print("updated",updated_dataset.tail(10))
 
 insight = pd.read_csv(csv_path('//insights//insight_check.csv'))
-insight
 
 if updated_dataset.shape[0] != insight['no._of_rows'][0] or updated_dataset.shape[1] != insight['no._of_rows'][1]:
     print("some differnce")
@@ -121,10 +121,7 @@ if updated_dataset.shape[0] != insight['no._of_rows'][0] or updated_dataset.shap
 
         subject = "drift detection found"
         to_address = ["saravana.shanmuganathan@axtria.com"]
-<<<<<<< HEAD
         attachments = ["//result//drift_result.html", "//result//accuracy_dashboard.html"]
-=======
->>>>>>> 8086b8a7980cf173e7320ff566fc294fd33288ab
 
         print("Sending mail...")
         for i in to_address:
