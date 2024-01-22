@@ -5,10 +5,11 @@ from email.mime.base import MIMEBase
 from email import encoders
 from pathlib import Path
 
-smtp_server = "smtp.gmail.com"
-smtp_port = 587  # TLS port for Gmail
-smtp_username = "saravanashanmuganathan35@gmail.com"  # Your Gmail email address
-smtp_password = "ngld jpvc mszi kejt"  # Your generated Gmail App Password
+smtp_server = "smtp.office365.com"
+smtp_port = 587  # TLS port for Outlook
+smtp_username = "saravana.shanmuganathan@axtria.com"  # Your Outlook email address
+smtp_password = "Saran*4897"  # Your Outlook account password
+
 def csv_path(csv):
     path = Path.cwd()
     path = str(path)
@@ -23,7 +24,7 @@ def send_email(subject, body, to_address, attachments=None):
     # Create the email message
     msg = MIMEMultipart()
     msg['From'] = from_email
-    msg['To'] = to_address
+    msg['To'] = ", ".join(to_address)
     msg['Subject'] = subject
 
     # Attach the email body
@@ -43,7 +44,7 @@ def send_email(subject, body, to_address, attachments=None):
     text = msg.as_string()
 
     try:
-        # Connect to the Gmail SMTP server
+        # Connect to the Outlook SMTP server
         server = smtplib.SMTP(smtp_server, smtp_port)
         server.starttls()  # Use TLS for encryption
         server.login(smtp_username, smtp_password)
@@ -59,7 +60,7 @@ def send_email(subject, body, to_address, attachments=None):
 
 content = '''Hi Team, 
               Data Drift has happened, please check the data. There is a change in data.
-Thank you'''
+              Thank you'''
 
 subject = "drift detection found"
 to_address = ["saravana.shanmuganathan@axtria.com"]
@@ -68,7 +69,7 @@ attachments = ["//result//drift_result.html", "//result//accuracy_dashboard.html
 print("Sending mail...")
 for i in to_address:
     # Send the email and store the response
-    email_response = send_email(subject, content, i, attachments)
+    email_response = send_email(subject, content, [i], attachments)
     # Print the status of the email sending process
     print(email_response)
     print("Mail sent to " + i)
