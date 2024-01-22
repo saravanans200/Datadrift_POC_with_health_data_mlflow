@@ -128,7 +128,7 @@ if updated_dataset.shape[0] != insight['no._of_rows'][0] or updated_dataset.shap
             # Send the email and store the response
             #email_response = send_email(subject, content, i, attachments)  #commenting email function. test is working
             # Print the status of the email sending process
-            print(email_response)
+            #print(email_response)
             print("Mail sent to " + i)
 
 
