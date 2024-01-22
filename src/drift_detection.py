@@ -36,7 +36,7 @@ smtp_password = "ngld jpvc mszi kejt"  # Your generated Gmail App Password
 def csv_path(csv):
     path = Path.cwd()
     path = str(path)
-    path = path[:-4]
+    #path = path[:-4]
     path = path + csv
     f_path = Path(path)
     return f_path
